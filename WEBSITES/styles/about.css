@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(100, 112, 116);
+}
+nav {
+  background-color: #000000;
+  color: hwb(0 74% 18%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  color: hwb(0 84% 10%);
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  font-family: "Times New Roman", Times, serif;
+}
+nav ul button {
+  background-color: #ffffff;
+  color: hwb(0 0% 100%);
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+nav ul li:hover {
+  background-color: #164b91;
+}
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 75%;
+  margin: 20px;
+  border: 5px solid #ffffff;
+}
+.about {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.about h2 {
+  color: #1d0dd1;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.about p {
+  color: #705ab7;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+.about button {
+  background-color: #1d0dd1;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+.contact {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.contact img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.contact h2 {
+  color: #d1a30d;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.contact p {
+  color: #b7b45a;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+.contact button {
+  background-color: #d1a30d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+.services {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.services img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.services h2 {
+  color: #65d10d;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+.services p {
+  color: #a0b75a;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+.services button {
+  background-color: #65d10d;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
